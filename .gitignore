@@ -1,0 +1,53 @@
+.qodo/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+*.env
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+extract/
+# Model files and checkpoints
+model/
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+
+# Logs and outputs
+logs/
+*.log
+*.out
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+*.json
+
+# Misc
+.qodo
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
